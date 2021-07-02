@@ -1,0 +1,13 @@
+{
+	"image": "./images/profile-picture.png",
+	"firstName": "Daniel Alexander",
+	"lastName": "Paz Rodríguez",
+	"country": "Colombia",
+	"city": "Cali",
+	"profession": "Frontend Develper",
+	"social": [
+		{ "name": "linkedin", "text": "Mi Linkedin", "link": "https://www.linkedin.com/in/danielpaz98" },
+		{ "name": "github", "text": "Mi Github", "link": "https://github.com/danielpaz98" },
+		{ "name": "twitter", "text": "Mi Twitter", "link": "https://twitter.com/dapaz_98" }
+	]
+}
