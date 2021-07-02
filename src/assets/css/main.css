@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(155deg, rgb(11, 175, 255), rgb(57, 224, 155) 50%, rgb(255, 194, 19));
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  min-height: 600px;
+  min-width: 600px;
+	padding: 1rem;
+	margin-top: 1rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 20px 20px 22px rgba(0, 0, 0, .0.2);
+  backdrop-filter: blur(4px);
+  border-radius: 0.5rem;
+}
+
+.card-img {
+  position: relative;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(4px);
+}
+
+.card-img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 90%;
+  border-radius: inherit;
+  object-fit: cover;
+}
+
+.card-profile {
+	position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 90%;
+  text-align: center;
+}
+
+.card-desc {
+	margin-bottom: 1rem;
+}
+
+.card-title {
+  color: white;
+  font-weight: 600;
+  letter-spacing: .7px;
+  margin: 5px 0;
+}
+
+.card-text {
+  color: white;
+  opacity: .8;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin: 5px 0;
+}
+
+.btn-link {
+	display: inline-flex;
+	align-items: center;
+	cursor: pointer;
+	text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(4px);
+  color: white;
+  outline: none;
+  border: none;
+  width: 90%;
+  padding: 1rem 1.25rem;
+  letter-spacing: .7px;
+  font-weight: 600;
+  border-radius: .5rem;
+}
+
+.btn-link-text {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+[class^="icon-"] {
+	align-self: flex-end;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 40px;
+	height: 40px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.icon-github {
+	background-image: url("~/assets/icons/github.svg");
+}
+
+.icon-linkedin {
+	background-image: url("~/assets/icons/linkedin.svg");
+}
+
+.icon-twitter {
+	background-image: url("~/assets/icons/twitter.svg");
+}
+
+.icon-linktree {
+	background-image: url("~/assets/icons/linktree.svg");
+}
+
+.footer {
+	margin-top: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: .5rem;
+}
+
+.footer-icon {
+	width: 30px;
+	height: 30px;
+}
+
+.footer-text {
+	font-size: 20px;
+}
